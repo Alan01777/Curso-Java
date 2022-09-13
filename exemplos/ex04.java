@@ -1,7 +1,7 @@
 package exemplos;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
+//import java.time.LocalDateTime;
 import java.time.format.TextStyle;
 import java.util.Locale;
 
@@ -21,9 +21,9 @@ public class ex04 {
         LocalDate hoje = LocalDate.now();
         Locale brasil = new Locale("pt", "BR");
         System.out.println(hoje.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil ));
-        String diaSemana = hoje.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil );
-        String saudacao;
-        LocalDateTime agora = LocalDateTime.now();
+        //String diaSemana = hoje.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil );
+        //String saudacao;
+        //LocalDateTime agora = LocalDateTime.now();
 
         
     }
